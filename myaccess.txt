@@ -1,9 +1,0 @@
-<?php 
-	$mydb = @mysql_connect("student.cs.appstate.edu", "nelsonba1", "900574454"); 
-	
-	if(!$mydb) 
-	{ 
-		echo("Connection to database server failed <br>"); 
-		exit(); 
-	}
-?>
