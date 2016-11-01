@@ -1,0 +1,212 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background: #FFF;
+	background-repeat: repeat;
+	font-family: "Inconsolata", Courier, Arial, sans-serif;
+	display: block;
+}
+
+
+.textlink {
+	color: #0055af;
+	text-decoration: none;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+}
+
+#header {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-bottom: solid 2px #DDD;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+.name {
+	font-size: 30px;
+	font-weight: bold;
+	color: #4CAF50;
+	letter-spacing: 0.1em;
+	padding-top: 10px;
+}
+
+.navigation ul {
+	display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation li {
+	font-size: 16px;
+	letter-spacing: 0.1em;
+    float: left;
+}
+
+.navigation li a {
+	display: block;
+	color: #555;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
+	-moz-transition: all .1s ease-in;
+	-o-transition: all .1s ease-in;
+	-webkit-transition: all .1s ease-in;
+	transition: all .1s ease-in;
+}
+
+.navigation li a:hover {
+	color: #CDB380;
+}
+
+h2 {
+	color: #CDB380;
+}
+
+
+#content {
+	text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 120px;
+}
+
+#functions {
+	display: inline-block;
+}
+
+form {
+	width: 150px;
+	padding: 0px 20px 20px;
+	float: left;
+}
+
+form p.activate {
+	text-align: center;
+	
+	padding: 10px;
+	margin: 0;
+	margin-bottom: 10px;
+	
+	background-color:#ddd;
+	border-radius: 4px;
+	
+	cursor: pointer;
+}
+
+div.in {
+	display: none;
+}
+
+
+input[type=text], input[type=date], select
+{
+	font-family: "Inconsolata";
+	font-size: 14px;
+	
+	padding: 5px;
+	margin-bottom: 10px;
+	
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	
+	width: 100%;
+	display: inline-block;
+}
+
+input:focus, button:focus {
+	outline: none;
+}
+
+input[type=button], input[type=submit], input[type=reset], button
+{
+	font-family: "Inconsolata";
+	font-size: 14px;
+	
+	padding: 10px;
+	margin-bottom: 10px;
+	
+	border: 0px solid #ccc;
+	border-radius: 4px;
+	
+	width: 100%;
+	display: inline-block;
+	
+	background-color: #4CAF50;
+	color: white;
+	
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	border-radius: 4px;
+	font-size: 14px;
+	border: 1px solid #ddd;
+}
+
+table td, table th {
+	text-align: left;
+	padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #4CAF50;
+	color: white;
+}
+
+.hometitle {
+	font-family: 'Quicksand';
+	font-weight: bold;
+	color: #CDB380;
+}
+
+div#info {
+	width: 620px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 20px;
+	font-family: 'Quicksand';
+}
+
+#footer {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	bottom: 0;
+	margin: 0;
+	padding-bottom:20px;
+	border-top: solid 2px #DDD;
+	background-color: #f2f2f2;
+}
+
+h4 {
+	margin: 10px;
+}
+
+.hidden {
+	visibility: hidden;
+}
